@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "data": {
+    "baseUrl": {
+      "prod": "https://gsm-dev-be-api.emddi.xyz/app-api",
+      "staging": "https://customer-api.prod.gsm.cloudhms.io/app-api",
+      "dev": "https://gsm-dev-be-api.emddi.xyz/app-api"
+    }
+  }
+}
