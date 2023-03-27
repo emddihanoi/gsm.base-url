@@ -4,17 +4,17 @@ const { dev, prod } = require("./config");
 
 fastify.get("/dev", async () => ({
   code: 0,
-  data: dev,
+  data: { baseUrl: dev },
 }));
 
 fastify.get("/prod", () => ({
   code: 0,
-  data: prod,
+  data: { baseUrl: prod },
 }));
 
 fastify.get("/", () => ({
   code: 0,
-  data: prod,
+  data: { baseUrl: prod },
 }));
 
 const start = async () => {
