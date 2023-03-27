@@ -2,8 +2,8 @@
   "code": 0,
   "data": {
     "baseUrl": {
-      "prod": "https://customer-api.prod.gsm.cloudhms.io/app-api",
-      "staging": "https://customer-api.prod.gsm.cloudhms.io/app-api",
+      "prod": "https://customer-api.gsm.net.vn/app-api",
+      "staging": "https://customer-api.gsm.net.vn/app-api",
       "dev": "https://customer-api.prod.gsm.cloudhms.io/app-api"
     }
   }

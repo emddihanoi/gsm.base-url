@@ -3,7 +3,7 @@
   "data": {
     "baseUrl": {
       "prod": "https://gsm-dev-be-api.emddi.xyz/app-api",
-      "staging": "https://customer-api.prod.gsm.cloudhms.io/app-api",
+      "staging": "https://customer-api.gsm.net.vn/app-api",
       "dev": "https://gsm-dev-be-api.emddi.xyz/app-api"
     }
   }
