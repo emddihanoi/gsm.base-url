@@ -1,7 +1,6 @@
 require("dotenv").config({});
 const fastify = require("fastify")({ logger: true });
-const dev = require("./dev.json");
-const prod = require("./prod.json");
+const { dev, prod } = require("./config");
 
 fastify.get("/dev", async () => ({
   code: 0,
